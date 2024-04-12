@@ -1,0 +1,3 @@
+void RenderViewImpl::exitFullscreen() {
+  exitFullScreen();
+}

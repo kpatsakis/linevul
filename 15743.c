@@ -1,0 +1,3 @@
+void RenderFrameHostImpl::OnSwapOutACK() {
+  OnSwappedOut();
+}

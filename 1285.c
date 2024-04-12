@@ -1,0 +1,3 @@
+void HTMLCanvasElement::OnWebLayerUpdated() {
+  SetNeedsCompositingUpdate();
+}

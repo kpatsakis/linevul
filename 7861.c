@@ -1,0 +1,3 @@
+  void BasicFindMainInterceptResponseInWorkingSet() {
+    BasicFindMainInterceptResponse(false);
+  }

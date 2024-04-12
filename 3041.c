@@ -1,0 +1,3 @@
+AXLayoutObject::~AXLayoutObject() {
+  ASSERT(isDetached());
+}

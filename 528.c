@@ -1,0 +1,3 @@
+void FrameSelection::PageActivationChanged() {
+  FocusedOrActiveStateChanged();
+}

@@ -1,0 +1,3 @@
+void ServiceWorkerPaymentInstrument::RecordUse() {
+  NOTIMPLEMENTED();
+}

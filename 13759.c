@@ -1,0 +1,1 @@
+PermissionsRequestFunction::PermissionsRequestFunction() {}

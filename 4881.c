@@ -1,0 +1,3 @@
+InputDispatcher::EventEntry::~EventEntry() {
+    releaseInjectionState();
+}

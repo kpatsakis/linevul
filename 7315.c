@@ -1,0 +1,4 @@
+void Download::platformInvalidate()
+{
+    notImplemented();
+}

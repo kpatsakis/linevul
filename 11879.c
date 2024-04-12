@@ -1,0 +1,3 @@
+GaiaCookieManagerService::ExternalCcResultFetcher::~ExternalCcResultFetcher() {
+  CleanupTransientState();
+}

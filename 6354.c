@@ -1,0 +1,3 @@
+void Browser::BrowserRenderWidgetShowing() {
+  RenderWidgetShowing();
+}

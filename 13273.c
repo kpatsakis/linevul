@@ -1,0 +1,3 @@
+HTMLPreloadScanner::~HTMLPreloadScanner()
+{
+}

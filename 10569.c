@@ -1,0 +1,4 @@
+HevcParameterSets::HevcParameterSets()
+ : mInfo(kInfoNone) {
+
+ }

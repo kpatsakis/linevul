@@ -1,0 +1,2 @@
+ChromeRenderMessageFilter::~ChromeRenderMessageFilter() {
+}

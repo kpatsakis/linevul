@@ -1,0 +1,4 @@
+PHP_METHOD(domdocument, loadHTMLFile)
+{
+	dom_load_html(INTERNAL_FUNCTION_PARAM_PASSTHRU, DOM_LOAD_FILE);
+}

@@ -1,0 +1,3 @@
+PluginHelper::~PluginHelper() {
+  DCHECK(CalledOnValidThread());
+}

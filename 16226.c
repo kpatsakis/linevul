@@ -1,0 +1,2 @@
+VaapiVideoDecodeAccelerator::InputBuffer::~InputBuffer() {
+}

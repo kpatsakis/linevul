@@ -1,0 +1,2 @@
+GpuListenerInfo::~GpuListenerInfo() {
+}

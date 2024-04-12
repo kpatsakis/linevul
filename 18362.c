@@ -1,0 +1,3 @@
+void RawData::detachFromCurrentThread()
+{
+}

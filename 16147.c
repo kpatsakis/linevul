@@ -1,0 +1,2 @@
+ GDataEntry::~GDataEntry() {
+}

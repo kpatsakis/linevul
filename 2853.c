@@ -1,0 +1,3 @@
+void RenderWidgetHostImpl::OnUnlockMouse() {
+  RejectMouseLockOrUnlockIfNecessary();
+}

@@ -1,0 +1,2 @@
+UsbTransferFunction::~UsbTransferFunction() {
+}

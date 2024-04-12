@@ -1,0 +1,2 @@
+PrintingMessageFilter::~PrintingMessageFilter() {
+}

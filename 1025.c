@@ -1,0 +1,2 @@
+TargetHandler::~TargetHandler() {
+}

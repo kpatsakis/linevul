@@ -1,0 +1,1 @@
+OfflinePageDownloadBridge::~OfflinePageDownloadBridge() {}

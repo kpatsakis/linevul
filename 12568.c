@@ -1,0 +1,3 @@
+void PlatformSensorProviderWin::FreeResources() {
+  StopSensorThread();
+}

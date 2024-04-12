@@ -1,0 +1,1 @@
+ EventReaderLibevdevCros::Delegate::~Delegate() {}

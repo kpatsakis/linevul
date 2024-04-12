@@ -1,0 +1,1 @@
+AutomationProviderHistoryObserver::~AutomationProviderHistoryObserver() {}

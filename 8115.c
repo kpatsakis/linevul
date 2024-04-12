@@ -1,0 +1,6 @@
+PHP_MSHUTDOWN_FUNCTION(bcmath)
+{
+	UNREGISTER_INI_ENTRIES();
+
+	return SUCCESS;
+}

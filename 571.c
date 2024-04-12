@@ -1,0 +1,1 @@
+PaletteTool::~PaletteTool() {}

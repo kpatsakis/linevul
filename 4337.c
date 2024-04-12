@@ -1,0 +1,3 @@
+  ~GpuMainThread() {
+    Stop();
+  }

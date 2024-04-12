@@ -1,0 +1,2 @@
+BookmarkDrag::~BookmarkDrag() {
+}

@@ -1,0 +1,4 @@
+    OffScreenRootWindow()
+    {
+         ++refCount;
+     }

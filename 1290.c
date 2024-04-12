@@ -1,0 +1,2 @@
+LinkInfoBar::~LinkInfoBar() {
+}

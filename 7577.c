@@ -1,0 +1,3 @@
+void Tab::FrameColorsChanged() {
+  UpdateForegroundColors();
+}

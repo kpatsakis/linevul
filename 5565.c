@@ -1,0 +1,2 @@
+ChromeWebUIControllerFactory::ChromeWebUIControllerFactory() {
+}

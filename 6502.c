@@ -1,0 +1,3 @@
+RenderFrameImpl::GetURLLoaderFactory() {
+  return GetLoaderFactoryBundle();
+}

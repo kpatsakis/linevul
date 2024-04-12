@@ -1,0 +1,1 @@
+PageInfoUI::ChosenObjectInfo::~ChosenObjectInfo() {}

@@ -1,0 +1,3 @@
+xsltDebugTraceCodes xsltDebugGetDefaultTrace() {
+	return xsltDefaultTrace;
+}

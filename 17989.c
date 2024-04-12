@@ -1,0 +1,50 @@
+  void TestFillForm(const char* html, bool unowned, const char* url_override) {
+    static const AutofillFieldCase field_cases[] = {
+
+      {"text",
+        "firstname",
+        "",
+        "",
+        true,
+        "filled firstname",
+        "filled firstname"},
+      {"text", "lastname", "", "", true, "filled lastname", "filled lastname"},
+      {"text", "notempty", "Hi", "", false, "filled notempty", "Hi"},
+      {"text",
+        "noautocomplete",
+        "",
+        "off",
+        true,
+        "filled noautocomplete",
+        "filled noautocomplete"},
+      {"text", "notenabled", "", "", false, "filled notenabled", ""},
+      {"text", "readonly", "", "", false, "filled readonly", ""},
+      {"text", "invisible", "", "", false, "filled invisible", ""},
+      {"text", "displaynone", "", "", false, "filled displaynone", ""},
+      {"month", "month", "", "", true, "2017-11", "2017-11"},
+      {"month", "month-nonempty", "2011-12", "", false, "2017-11", "2011-12"},
+      {"select-one", "select", "", "", true, "TX", "TX"},
+      {"select-one", "select-nonempty", "CA", "", true, "TX", "TX"},
+      {"select-one", "select-unchanged", "CA", "", false, "CA", "CA"},
+      {"select-one", "select-displaynone", "CA", "", true, "CA", "CA"},
+      {"textarea",
+        "textarea",
+        "",
+        "",
+        true,
+        "some multi-\nline value",
+        "some multi-\nline value"},
+      {"textarea",
+        "textarea-nonempty",
+        "Go\naway!",
+        "",
+        false,
+        "some multi-\nline value",
+        "Go\naway!"},
+    };
+    TestFormFillFunctions(html, unowned, url_override, field_cases,
+                          base::size(field_cases), FillForm, &GetValueWrapper);
+    WebInputElement firstname = GetInputElementById("firstname");
+    EXPECT_EQ(16, firstname.SelectionStart());
+    EXPECT_EQ(16, firstname.SelectionEnd());
+  }

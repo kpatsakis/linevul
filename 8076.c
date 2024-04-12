@@ -1,0 +1,3 @@
+TargetHandler::Throttle::~Throttle() {
+  CleanupPointers();
+}

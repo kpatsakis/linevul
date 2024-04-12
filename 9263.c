@@ -1,0 +1,2 @@
+RenderThreadImpl::PendingFrameCreate::~PendingFrameCreate() {
+}

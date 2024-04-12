@@ -1,0 +1,1 @@
+UninstalledExtensionInfo::~UninstalledExtensionInfo() {}

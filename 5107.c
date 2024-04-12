@@ -1,0 +1,2 @@
+NaClIPCAdapter::IOThreadData::IOThreadData() {
+}

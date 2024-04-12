@@ -1,0 +1,1 @@
+SyncBackendHost::Core::DoInitializeOptions::~DoInitializeOptions() {}

@@ -1,0 +1,2 @@
+WebviewInfo::~WebviewInfo() {
+}

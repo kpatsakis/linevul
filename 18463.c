@@ -1,0 +1,2 @@
+BrowserInit::LaunchWithProfile::~LaunchWithProfile() {
+}

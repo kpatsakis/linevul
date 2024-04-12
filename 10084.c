@@ -1,0 +1,2 @@
+UsbSetConfigurationFunction::UsbSetConfigurationFunction() {
+}

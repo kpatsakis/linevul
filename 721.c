@@ -1,0 +1,23 @@
+InlineLoginHandlerImpl::FinishCompleteLoginParams::FinishCompleteLoginParams(
+    InlineLoginHandlerImpl* handler,
+    content::StoragePartition* partition,
+    const GURL& url,
+    const base::FilePath& profile_path,
+    bool confirm_untrusted_signin,
+    const std::string& email,
+    const std::string& gaia_id,
+    const std::string& password,
+    const std::string& auth_code,
+    bool choose_what_to_sync,
+    bool is_force_sign_in_with_usermanager)
+    : handler(handler),
+      partition(partition),
+      url(url),
+      profile_path(profile_path),
+      confirm_untrusted_signin(confirm_untrusted_signin),
+      email(email),
+      gaia_id(gaia_id),
+      password(password),
+      auth_code(auth_code),
+      choose_what_to_sync(choose_what_to_sync),
+      is_force_sign_in_with_usermanager(is_force_sign_in_with_usermanager) {}

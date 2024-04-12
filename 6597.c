@@ -1,0 +1,3 @@
+void RenderFrameHostImpl::CancelInitialHistoryLoad() {
+  NOTIMPLEMENTED();
+}

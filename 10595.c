@@ -1,0 +1,2 @@
+ WorkerProcessLauncherTest::~WorkerProcessLauncherTest() {
+}

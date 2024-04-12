@@ -1,0 +1,3 @@
+InspectorOverlay::~InspectorOverlay()
+{
+}

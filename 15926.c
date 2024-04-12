@@ -1,0 +1,4 @@
+    CSPSourceTest()
+        : csp(ContentSecurityPolicy::create())
+    {
+    }

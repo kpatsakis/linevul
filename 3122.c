@@ -1,0 +1,2 @@
+ConfirmInfoBarDelegate::~ConfirmInfoBarDelegate() {
+}

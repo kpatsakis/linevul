@@ -1,0 +1,1 @@
+  FullscreenTestBrowserWindow() : fullscreen_(false) {}

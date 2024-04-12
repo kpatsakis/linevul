@@ -1,0 +1,4 @@
+QQuickWebViewPrivate::~QQuickWebViewPrivate()
+{
+    webPageProxy->close();
+}

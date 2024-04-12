@@ -1,0 +1,2 @@
+UsbGetUserSelectedDevicesFunction::~UsbGetUserSelectedDevicesFunction() {
+}

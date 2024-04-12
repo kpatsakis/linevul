@@ -1,0 +1,3 @@
+void RenderFrameImpl::UpdateAllLifecyclePhasesAndCompositeForTesting() {
+  NOTREACHED();
+}

@@ -1,0 +1,1 @@
+BluetoothSocketCloseFunction::BluetoothSocketCloseFunction() {}

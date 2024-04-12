@@ -1,0 +1,3 @@
+ReadUserLogFileState::~ReadUserLogFileState( void )
+{
+}

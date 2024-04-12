@@ -1,0 +1,2 @@
+void AutomationProviderImportSettingsObserver::ImportStarted() {
+}
